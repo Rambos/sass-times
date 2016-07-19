@@ -38,4 +38,4 @@ gem install sass-times
     /* 完成于 1468895660 */
     ```
 
-strftime more http://ruby-doc.org/core-2.2.0/Time.html
+strftime more http://ruby-doc.org/core-2.0.0/Time.html#method-i-strftime
