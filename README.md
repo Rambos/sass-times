@@ -1,4 +1,4 @@
-# sass-times
+# sass-times [![Gem Version](https://badge.fury.io/rb/sass-times.svg)](https://badge.fury.io/rb/sass-times)
 SASS  时间戳方法
 
 ### 安装
