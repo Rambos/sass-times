@@ -11,29 +11,31 @@ gem install sass-times
 
 2. 直接在scss文件中以下下几种调用方法
 
-    输入:
+    timestamp()
     ```scss
-    /* Compiled on #{timestamp()} */
+    /* 完成于 #{timestamp()} */
     ```
     输出:
     ```css
-    /* Compiled on 2016-07-19 13:01:40 +0800 */
+    /* 完成于 2016-07-19 13:01:40 +0800 */
     ```
 
-    输入:
+    strftime()
     ```scss
-    /* Compiled on #{strftime('%Y-%m-%d')} */
+    /* 完成于 #{strftime('%Y-%m-%d')} */
     ```
     输出:
     ```css
-    /* Compiled on 2016-07-19 */
+    /* 完成于 2016-07-19 */
     ```
 
-    输入:
+    unix_timestamp
     ```scss
-    /* Compiled on #{unix_timestamp()} */
+    /* 完成于 #{unix_timestamp()} */
     ```
     输出:
     ```css
-    /* Compiled on 1468895660 */
+    /* 完成于 1468895660 */
     ```
+
+strftime more http://ruby-doc.org/core-2.2.0/Time.html
